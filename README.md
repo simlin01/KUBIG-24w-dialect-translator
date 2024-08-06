@@ -23,7 +23,7 @@ These preprocessing steps ensured that the data fed into the model was of high q
 - **Dialect Awareness**: Translates Standard Korean sentences into authentic 경상도 dialect.
 - **Transformer Model**: Based on the "Attention is All You Need" architecture.
 - **Performance Optimized**: Fine-tuned with BLEU score evaluation to ensure high-quality output.
-
+<!--
 ## 📊 **Project Structure**
 Here's a brief overview of what you'll find in this repository:
 
@@ -31,7 +31,7 @@ Here's a brief overview of what you'll find in this repository:
 - **`models/`**: Houses the Transformer models and training scripts.
 - **`inference/`**: Tools for testing the model on new input sentences.
 - **`notebooks/`**: Jupyter notebooks with exploratory data analysis, model training, and evaluation.
-
+-->
 ## 💻 **Getting Started**
 1. **Clone this repository**:
    ```bash
