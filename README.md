@@ -13,15 +13,15 @@ This translator leverages the **Transformer architecture**—the same technology
 ### **Tokenizer & Preprocessing**
 To prepare our dataset for the Transformer model, we implemented several key preprocessing steps:
 
-- **Data Cleaning**: Removed special characters and non-Korean text using regular expressions to maintain data consistency.
+- **Data Cleansing**: Removed special characters and non-Korean text using regular expressions to maintain data consistency.
 - **Tokenization**: Used a morpheme-based tokenization approach for Standard Korean input and word-level tokenization for 경상도 dialect output. This allowed for better handling of the linguistic variations between the two forms.
-- **Handling Irregularities**: Managed outliers and irregular data patterns, such as colloquialisms and speech disfluencies, which are common in dialect data.
+- **Handling Outliers**: Managed outliers and irregular data patterns, such as colloquialisms and speech disfluencies, which are common in dialect data.
 
 These preprocessing steps ensured that the data fed into the model was of high quality, leading to more accurate translations.
 
 ### **Key Features**
 - **Dialect Awareness**: Translates Standard Korean sentences into authentic 경상도 dialect.
-- **Transformer Model**: Based on the "Attention is All You Need" architecture.
+- **Transformer Model**: Based on the Transformer architecture.
 - **Performance Optimized**: Fine-tuned with BLEU score evaluation to ensure high-quality output.
 <!--
 ## 📊 **Project Structure**
